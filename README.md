@@ -31,3 +31,8 @@ cd ~/dfl_uuv_system/docker_file
 cd ~/dfl_uuv_system/docker_file
 ./run_x64_gpu.bash
 ```
+## Sensor Payload - ROS2 topics
+All the information from UUV can be acquired from ROS2 interface.
+<p align='center'>
+    <img src="https://github.com/dfl-rlab/dfl_uuv_system/blob/main/materials/uuv_system.png" width="640" height="420"/>
+</p>
