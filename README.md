@@ -21,7 +21,13 @@ The main libraries are specified below:
         
 ## Build Docker Image
 ```
+cd ~
 git clone https://github.com/dfl-rlab/dfl_uuv_system.git
-cd dfl_uuv_system
+cd ~/dfl_uuv_system/docker_file
 ./build.bash
+```
+## Create a Container using the Image
+```
+cd ~/dfl_uuv_system/docker_file
+./run_x64_gpu.bash
 ```
